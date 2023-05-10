@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.11.0
+
+### Minor Changes
+
+- [#863](https://github.com/iTwin/iTwinUI/pull/863): - Add `iui-input-flex-container` class for inputs with icons and buttons within
+  - Add `iui-searchbox` class for Searchbox
+  - Add `iui-expandable-searchbox` class for Searchbox that can be expanded
+  - Add `iui-search-icon` for styling icons within search
+
+### Patch Changes
+
+- [#1251](https://github.com/iTwin/iTwinUI/pull/1251): Reorganized source file structure. Should have no changes in the CSS output.
+- [#1257](https://github.com/iTwin/iTwinUI/pull/1257): Fixed an issue where pseudo elements inside a v2 boundary were not reverting v1 styles.
+
 ## 1.10.3
 
 ### Patch Changes

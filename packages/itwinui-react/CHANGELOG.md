@@ -1,5 +1,27 @@
 # Changelog
 
+## 2.11.0
+
+### Minor Changes
+
+- [#863](https://github.com/iTwin/iTwinUI/pull/863): Add `SearchBox` component for your search needs. It can be used as static or expandable version of SearchBox.
+
+  ```ts
+  <SearchBox inputProps={{placeholder:'Basic search'}} />
+  <SearchBox expandable inputProps={{placeholder:'Expandable search'}} />
+  ```
+
+  `SearchBox` has `SearchBox.Icon`, `SearchBox.Button`, `SearchBox.Input`, `SearchBox.CollapseButton` and `SearchBox.ExpandButton` subcomponents which can be passed as children to customise the look.
+
+### Patch Changes
+
+- [#1156](https://github.com/iTwin/iTwinUI/pull/1156): Fixes an issue where table crashes when resizing the Column Manager column in expand mode.
+- [#1246](https://github.com/iTwin/iTwinUI/pull/1246): All relative imports now use the `.js` extension, in preparation of better ESM support.
+- [#1228](https://github.com/iTwin/iTwinUI/pull/1228): `ComboBox` and `Select` will now use a hidden live region to ensure that multiple selected options are announced by assistive technologies every time the selection is updated.
+- [#1257](https://github.com/iTwin/iTwinUI/pull/1257): Fixed an issue where pseudo elements inside a v2 boundary were not reverting v1 styles.
+- Updated dependencies:
+  - @itwin/itwinui-css@1.11.0
+
 ## 2.10.1
 
 ### Patch Changes
