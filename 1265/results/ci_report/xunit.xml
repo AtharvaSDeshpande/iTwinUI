@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BackstopJS" tests="984" failures="1" errors="1" skipped="0">
+    <testcase classname="#demo-default" name=" ›› alert_Type default_light"/>
+    <testcase classname="#demo-sticky" name=" ›› alert_Type sticky_light"/>
+    <testcase classname="#test-single-alert" name=" ›› alert_State hover link &amp; focus close button_light"/>
+    <testcase classname="#test-single-alert" name=" ›› alert_State hover close button &amp; focus link_light"/>
+    <testcase classname="#demo-default" name=" ›› anchor_All_light"/>
+    <testcase classname="#demo-default" name=" ›› anchor_Hover 1st &amp; focus 2nd_light"/>
+    <testcase classname="#demo-default" name=" ›› anchor_Hover 2nd &amp; focus 1st_light"/>
+    <testcase classname="#demo-default" name=" ›› avatar_Type default_light"/>
+    <testcase classname="#demo-status" name=" ›› avatar_Type online status_light"/>
+    <testcase classname="#demo-list" name=" ›› avatar_Type list_light"/>
+    <testcase classname="#demo-stacked" name=" ›› avatar_Type stacked_light"/>
+    <testcase classname="#demo-animated" name=" ›› avatar_Type animated_light"/>
+    <testcase classname="#demo-soft-backgrounds" name=" ›› badge_Type soft backgrounds_light"/>
+    <testcase classname="#demo-statuses" name=" ›› badge_Type statuses_light"/>
+    <testcase classname="#demo-default" name=" ›› blockquote_Type default_light"/>
+    <testcase classname="#demo-anchors" name=" ›› breadcrumbs_State hover and focus links_light"/>
+    <testcase classname="#demo-buttons" name=" ›› breadcrumbs_State hover and focus buttons_light"/>
+    <testcase classname="#demo-anchors-2" name=" ›› breadcrumbs_State hover and focus breadcrumb anchors_light"/>
+    <testcase classname="#demo-buttons-2" name=" ›› breadcrumbs_State hover and focus breadcrumb buttons_light"/>
+    <testcase classname="#demo-buttons-3" name=" ›› breadcrumbs_State hover and focus overflow buttons_light"/>
+    <testcase classname="#demo-high-visibility" name=" ›› button_Type High Visibility_light"/>
+    <testcase classname="#demo-cta" name=" ›› button_Type CTA_light"/>
+    <testcase classname="#demo-default" name=" ›› button_Type Default_light"/>
+    <testcase classname="#demo-borderless" name=" ›› button_Type Borderless_light"/>
+    <testcase classname="#demo-notification" name=" ›› button_With notification_light"/>
+    <testcase classname="#demo-grouped-default" name=" ›› button_Grouped Default_light"/>
+    <testcase classname="#demo-grouped-borderless" name=" ›› button_Grouped Borderless_light"/>
+    <testcase classname="#demo-split" name=" ›› button_Type Split_light"/>
+    <testcase classname="#demo-combo-group" name=" ›› button_Type Input Button Combo_light"/>
+    <testcase classname="#demo-ideas" name=" ›› button_Type Ideas_light"/>
+    <testcase classname="#demo-default" name=" ›› carousel_Type default_light"/>
+    <testcase classname="#demo-default" name=" ›› carousel_State hover &amp; focus_light"/>
+    <testcase classname="#demo-default" name=" ›› checkbox_default_light"/>
+    <testcase classname="#demo-inline" name=" ›› checkbox_inline_light"/>
+    <testcase classname="#demo-no-label" name=" ›› checkbox_no-label_light"/>
+    <testcase classname="#demo-special" name=" ›› checkbox_Type specialty_light"/>
+    <testcase classname="#demo-codeblock" name=" ›› code_Type Codeblock_light"/>
+    <testcase classname="#demo-codeblock" name=" ›› code_Scroll Codeblock_light"/>
+    <testcase classname="#demo-inline" name=" ›› code_Type Inline_light"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_Basic_light"/>
+    <testcase classname="#demo-advanced" name=" ›› color-picker_Advanced_light"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_State hover color swatch_light"/>
+    <testcase classname="#demo-advanced-interactions" name=" ›› color-picker_State hover color dot_light"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_State focus color swatch_light"/>
+    <testcase classname="#demo-advanced-interactions" name=" ›› color-picker_State focus color dot_light"/>
+    <testcase classname="#demo-all" name=" ›› color_Type all_light"/>
+    <testcase classname="#demo-text" name=" ›› column-filter_Type Text filter_light"/>
+    <testcase classname="#demo-date" name=" ›› column-filter_Type Date filter_light"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_Type Date_light"/>
+    <testcase classname="#demo-date-year-skipping" name=" ›› date-picker_Type Date with year skipping buttons_light"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_Type Date &amp; Time_light"/>
+    <testcase classname="#demo-date-and-time-24h" name=" ›› date-picker_Type Date &amp; Time 24 hour format_light"/>
+    <testcase classname="#demo-date-range" name=" ›› date-picker_Type Date Range_light"/>
+    <testcase classname="#demo-dates-disabled" name=" ›› date-picker_Type Some dates disabled_light"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_State hover date_light"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_State hover time_light"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_State focus date_light"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_State focus time_light"/>
+    <testcase classname="#demo-date-range" name=" ›› date-picker_State focus range_light"/>
+    <testcase classname="document" name=" ›› dialog_basic_light"/>
+    <testcase classname="document" name=" ›› dialog_full-page-dialog_light"/>
+    <testcase classname="document" name=" ›› dialog_draggable-dialog_light"/>
+    <testcase classname="document" name=" ›› dialog_dialog-top-left_light"/>
+    <testcase classname="document" name=" ›› dialog_dialog-top-right_light"/>
+    <testcase classname="document" name=" ›› dialog_dialog-bottom-left_light"/>
+    <testcase classname="document" name=" ›› dialog_dialog-bottom-right_light"/>
+    <testcase classname="#demo-default" name=" ›› expandable-block_Type default_light"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_Type with caption_light"/>
+    <testcase classname="#demo-small" name=" ›› expandable-block_Type small_light"/>
+    <testcase classname="#demo-borderless" name=" ›› expandable-block_Type borderless_light"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_State hover_light"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_State focus_light"/>
+    <testcase classname="#demo-default" name=" ›› fieldset_Type Default_light"/>
+    <testcase classname="#demo-text-area" name=" ›› file-upload_Type text area_light"/>
+    <testcase classname="#demo-table" name=" ›› file-upload_Type table_light"/>
+    <testcase classname="#demo-no-wrap" name=" ›› file-upload_Type not wrapping anything_light"/>
+    <testcase classname="#demo-file-card" name=" ›› file-upload_File card_light"/>
+    <testcase classname="#demo-file-card-with-file-upload" name=" ›› file-upload_File card with iui-file-upload_light"/>
+    <testcase classname="viewport" name=" ›› footer_Type hidden below viewport_light"/>
+    <testcase classname="viewport" name=" ›› footer_Type visible in viewport_light"/>
+    <testcase classname="viewport" name=" ›› footer_State hover and focus_light"/>
+    <testcase classname="#demo-default" name=" ›› header_Type Default_light"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim_light"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim_light"/>
+    <testcase classname="#demo-default" name=" ›› header_Type Default State hover &amp; focus_light"/>
+    <testcase classname="#demo-split" name=" ›› header_Type Default State hover &amp; focus_light"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim State hover &amp; focus_light"/>
+    <testcase classname="#demo-split" name=" ›› header_Type Split State hover &amp; focus_light"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_light"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_light"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_light"/>
+    <testcase classname="#demo-icons" name=" ›› icon_Basic_light"/>
+    <testcase classname="#demo-status" name=" ›› icon_Status colors_light"/>
+    <testcase classname="#demo-typography" name=" ›› icon_Autoscale with text_light"/>
+    <testcase classname="#demo-edit" name=" ›› information-panel_Type default_light"/>
+    <testcase classname="#demo-docked-bottom" name=" ›› information-panel_Type docked bottom_light"/>
+    <testcase classname="#demo-default" name=" ›› input_Type Default_light"/>
+    <testcase classname="#demo-inline" name=" ›› input_Type Inline_light"/>
+    <testcase classname="#demo-hybrid" name=" ›› input_Type Hybrid_light"/>
+    <testcase classname="#demo-no-label" name=" ›› input_Type Without Label_light"/>
+    <testcase classname="#demo-no-label.__n1" name=" ›› input_Type Without Label_light"/>
+    <testcase classname="#demo-search-box" name=" ›› input_Type SearchBox_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› input_State hover in default_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› input_State focus in default_light"/>
+    <testcase classname="#demo-status-singular" name=" ›› input_State hover with status_light"/>
+    <testcase classname="#demo-status-singular" name=" ›› input_State focus with status_light"/>
+    <testcase classname="html" name=" ›› keyboard_basic_light"/>
+    <testcase classname="html" name=" ›› location-marker_basic_light"/>
+    <testcase classname="#demo-default" name=" ›› menu_Type Default_light"/>
+    <testcase classname="#demo-header" name=" ›› menu_Type Header_light"/>
+    <testcase classname="#demo-skeleton" name=" ›› menu_Type Skeleton_light"/>
+    <testcase classname="#demo-default" name=" ›› menu_State hover &amp; focus_light"/>
+    <testcase classname="#demo-skeleton" name=" ›› menu_Hover Skeleton_light"/>
+    <testcase classname="#nis-401 .iui-non-ideal-state" name=" ›› non-ideal-state_401_light"/>
+    <testcase classname="#nis-403 .iui-non-ideal-state" name=" ›› non-ideal-state_403_light"/>
+    <testcase classname="#nis-404 .iui-non-ideal-state" name=" ›› non-ideal-state_404_light"/>
+    <testcase classname="#nis-500 .iui-non-ideal-state" name=" ›› non-ideal-state_500_light"/>
+    <testcase classname="#nis-502 .iui-non-ideal-state" name=" ›› non-ideal-state_502_light"/>
+    <testcase classname="#nis-503 .iui-non-ideal-state" name=" ›› non-ideal-state_503_light"/>
+    <testcase classname="#nis-error .iui-non-ideal-state" name=" ›› non-ideal-state_error_light"/>
+    <testcase classname="#nis-timed-out .iui-non-ideal-state" name=" ›› non-ideal-state_timed-out_light"/>
+    <testcase classname="#nis-redirect .iui-non-ideal-state" name=" ›› non-ideal-state_redirect_light"/>
+    <testcase classname="#nis-multi-redirect .iui-non-ideal-state" name=" ›› non-ideal-state_multi-redirect_light"/>
+    <testcase classname="#demo-linear" name=" ›› progress-indicator_linear_light"/>
+    <testcase classname="#demo-radial" name=" ›› progress-indicator_radial_light"/>
+    <testcase classname="#demo-overlay" name=" ›› progress-indicator_overlay_light"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_default_light"/>
+    <testcase classname="#demo-alternative-layouts" name=" ›› radio-tile_alternative layouts_light"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State hover_light"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State focus_light"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State focus and checked_light"/>
+    <testcase classname="#demo-default" name=" ›› radio_default_light"/>
+    <testcase classname="#demo-inline" name=" ›› radio_inline_light"/>
+    <testcase classname="#demo-label" name=" ›› radio_label_light"/>
+    <testcase classname="#demo-default" name=" ›› select_Type Default_light"/>
+    <testcase classname="#demo-sizes" name=" ›› select_Sizes_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› select_State hover_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› select_State focus_light"/>
+    <testcase classname="#demo-inline-combo" name=" ›› select_Inline combo_light"/>
+    <testcase classname="#demo-multi" name=" ›› select_Type Multi_light"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_Type collapsed_light"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_Type expanded_light"/>
+    <testcase classname="#demo-side-navigation-submenu" name=" ›› side-navigation_Type submenu_light"/>
+    <testcase classname="#demo-side-navigation-submenu-active" name=" ›› side-navigation_Type submenu &amp; active_light"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_State collapsed hover and focus_light"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_State expanded hover and focus_light"/>
+    <testcase classname="viewport" name=" ›› skip-to-content_Type focus_light"/>
+    <testcase classname="viewport" name=" ›› skip-to-content_Type focus and hover_light"/>
+    <testcase classname="#demo-default" name=" ›› slider_Type Default_light"/>
+    <testcase classname="#demo-range" name=" ›› slider_Type Range_light"/>
+    <testcase classname="#demo-default-vertical" name=" ›› slider_Type Default Vertical_light"/>
+    <testcase classname="#demo-range-vertical" name=" ›› slider_Type Range Vertical_light"/>
+    <testcase classname="#demo-default" name=" ›› slider_State hover &amp; focus_light"/>
+    <testcase classname="#demo-default" name=" ›› stepper_Type default_light"/>
+    <testcase classname="#demo-long" name=" ›› stepper_Type long_light"/>
+    <testcase classname="#demo-default" name=" ›› stepper_State default hover on complete_light"/>
+    <testcase classname="#demo-long" name=" ›› stepper_State long focus on complete_light"/>
+    <testcase classname="#demo-default" name=" ›› surface_Type default_light"/>
+    <testcase classname="#demo-elevations" name=" ›› surface_Type elevations_light"/>
+    <testcase classname="#demo-default" name=" ›› table_Type Default_light"/>
+    <testcase classname="#demo-extras" name=" ›› table_Type Extras_light"/>
+    <testcase classname="#demo-expandable-rows" name=" ›› table_Type Expandable Rows_light"/>
+    <testcase classname="#demo-loading" name=" ›› table_Type Loading_light"/>
+    <testcase classname="#demo-empty-state" name=" ›› table_Type Empty_light"/>
+    <testcase classname="#demo-status" name=" ›› table_Type Status_light"/>
+    <testcase classname="#demo-default .iui-table:nth-child(1)" name=" ›› table_Editable cell_light"/>
+    <testcase classname="#demo-default" name=" ›› tabs_Type default_light"/>
+    <testcase classname="#demo-default-vertical" name=" ›› tabs_Type default vertical_light"/>
+    <testcase classname="#demo-borderless" name=" ›› tabs_Type borderless_light"/>
+    <testcase classname="#demo-borderless-vertical" name=" ›› tabs_Type borderless vertical_light"/>
+    <testcase classname="#demo-pill" name=" ›› tabs_Type pill_light"/>
+    <testcase classname="#demo-default-2" name=" ›› tabs_State hover &amp; focus in default_light"/>
+    <testcase classname="#demo-borderless-2" name=" ›› tabs_State hover &amp; focus in borderless_light"/>
+    <testcase classname="#demo-pill-2" name=" ›› tabs_State hover &amp; focus in pill_light"/>
+    <testcase classname="#demo-default" name=" ›› tag_Type Default_light"/>
+    <testcase classname="#demo-basic" name=" ›› tag_Type Basic_light"/>
+    <testcase classname="#demo-default-container" name=" ›› tag_Type Container_light"/>
+    <testcase classname="#demo-default" name=" ›› tag_State hover &amp; focus_light"/>
+    <testcase classname="#demo-basic" name=" ›› tag_State hover basic_light"/>
+    <testcase classname="#demo-default" name=" ›› textarea_default_light"/>
+    <testcase classname="#demo-inline" name=" ›› textarea_inline_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› textarea_State hover in default_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› textarea_State focus in default_light"/>
+    <testcase classname="#demo-status-singular" name=" ›› textarea_State hover with status_light"/>
+    <testcase classname="#demo-status-singular" name=" ›› textarea_State focus with status_light"/>
+    <testcase classname="#demo-everything-turned-on" name=" ›› tile_Type Everything turned on_light"/>
+    <testcase classname="#demo-default" name=" ›› tile_Type Default_light"/>
+    <testcase classname="#demo-action-states" name=" ›› tile_Type Action States_light"/>
+    <testcase classname="#demo-action-states-folders" name=" ›› tile_Type Folder Action States_light"/>
+    <testcase classname="#demo-user" name=" ›› tile_Type User_light"/>
+    <testcase classname="#demo-video" name=" ›› tile_Type Video_light"/>
+    <testcase classname="#demo-folder" name=" ›› tile_Type Folder_light"/>
+    <testcase classname="#demo-default" name=" ›› tile_State hover_light"/>
+    <testcase classname="#demo-default" name=" ›› tile_State hover with thumbnail_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Type Indicator hover_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Type Indicator hover with thumbnail_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Quick Action hover_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Quick Action hover with thumbnail_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State More Options hover_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Double Button hover_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Single Button hover_light"/>
+    <testcase classname="#test-tile-4" name=" ›› tile_State focus_light"/>
+    <testcase classname="#test-tile-5" name=" ›› tile_State focus with thumbnail_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Type Indicator focus_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Type Indicator focus with thumbnail_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Quick Action focus_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Quick Action focus with thumbnail_light"/>
+    <testcase classname="#test-tile-3" name=" ›› tile_State Play Icon focus with thumbnail_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State More Options focus_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Double Button focus_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Single Button focus_light"/>
+    <testcase classname="#demo-time" name=" ›› time-picker_Type Time_light"/>
+    <testcase classname="#demo-time-minutes" name=" ›› time-picker_Type Time with minutes_light"/>
+    <testcase classname=".iui-toast-wrapper" name=" ›› toast_Type All_light"/>
+    <testcase classname="#demo-informational" name=" ›› toast_State hover link in informational_light"/>
+    <testcase classname="#demo-positive" name=" ›› toast_State hover link in positive_light"/>
+    <testcase classname="#demo-negative" name=" ›› toast_State hover link in negative_light"/>
+    <testcase classname="#demo-warning" name=" ›› toast_State hover link in warning_light"/>
+    <testcase classname="#demo-informational" name=" ›› toast_State focus link in informational_light"/>
+    <testcase classname="#demo-positive" name=" ›› toast_State focus link in positive_light"/>
+    <testcase classname="#demo-negative" name=" ›› toast_State focus link in negative_light"/>
+    <testcase classname="#demo-warning" name=" ›› toast_State focus link in warning_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top start placement_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top placement_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top end placement_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom start placement_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom placement_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom end placement_light"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_Type Default_light"/>
+    <testcase classname="#demo-small" name=" ›› toggle-switch_Type Small_light"/>
+    <testcase classname="#demo-toggle-right" name=" ›› toggle-switch_Type label left_light"/>
+    <testcase classname="#demo-toggle-left" name=" ›› toggle-switch_Type label right_light"/>
+    <testcase classname="#demo-toggle-no-label" name=" ›› toggle-switch_Type label none_light"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_State hover checked &amp; focus unchecked_light"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_State focus checked &amp; hover unchecked_light"/>
+    <testcase classname="#demo-tooltip" name=" ›› tooltip_Type All_light"/>
+    <testcase classname="#demo-default" name=" ›› tree_Default_light"/>
+    <testcase classname="#demo-captions" name=" ›› tree_With Captions_light"/>
+    <testcase classname="#demo-checkbox" name=" ›› tree_With Checkbox_light"/>
+    <testcase classname="#demo-disabled" name=" ›› tree_Disabled_light"/>
+    <testcase classname="#demo-icons" name=" ›› tree_With Icons_light"/>
+    <testcase classname="#demo-captions" name=" ›› tree_State hover tree node_light"/>
+    <testcase classname="#demo-captions" name=" ›› tree_State focus tree node_light"/>
+    <testcase classname="#demo-typography" name=" ›› typography_Type all_light"/>
+    <testcase classname="#demo-typography" name=" ›› typography_Type skeleton text_light"/>
+    <testcase classname="#demo-workflow" name=" ›› workflow-diagram_Type workflow_light"/>
+    <testcase classname="#demo-default" name=" ›› alert_Type default_hc_light"/>
+    <testcase classname="#demo-sticky" name=" ›› alert_Type sticky_hc_light">
+      <failure message="Design deviation ›› alert_Type sticky_hc_light (#demo-sticky) component"/>
+      <error message="Design deviation ›› alert_Type sticky_hc_light (#demo-sticky) component"/>
+    </testcase>
+    <testcase classname="#test-single-alert" name=" ›› alert_State hover link &amp; focus close button_hc_light"/>
+    <testcase classname="#test-single-alert" name=" ›› alert_State hover close button &amp; focus link_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› anchor_All_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› anchor_Hover 1st &amp; focus 2nd_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› anchor_Hover 2nd &amp; focus 1st_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› avatar_Type default_hc_light"/>
+    <testcase classname="#demo-status" name=" ›› avatar_Type online status_hc_light"/>
+    <testcase classname="#demo-list" name=" ›› avatar_Type list_hc_light"/>
+    <testcase classname="#demo-stacked" name=" ›› avatar_Type stacked_hc_light"/>
+    <testcase classname="#demo-animated" name=" ›› avatar_Type animated_hc_light"/>
+    <testcase classname="#demo-soft-backgrounds" name=" ›› badge_Type soft backgrounds_hc_light"/>
+    <testcase classname="#demo-statuses" name=" ›› badge_Type statuses_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› blockquote_Type default_hc_light"/>
+    <testcase classname="#demo-anchors" name=" ›› breadcrumbs_State hover and focus links_hc_light"/>
+    <testcase classname="#demo-buttons" name=" ›› breadcrumbs_State hover and focus buttons_hc_light"/>
+    <testcase classname="#demo-anchors-2" name=" ›› breadcrumbs_State hover and focus breadcrumb anchors_hc_light"/>
+    <testcase classname="#demo-buttons-2" name=" ›› breadcrumbs_State hover and focus breadcrumb buttons_hc_light"/>
+    <testcase classname="#demo-buttons-3" name=" ›› breadcrumbs_State hover and focus overflow buttons_hc_light"/>
+    <testcase classname="#demo-high-visibility" name=" ›› button_Type High Visibility_hc_light"/>
+    <testcase classname="#demo-cta" name=" ›› button_Type CTA_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› button_Type Default_hc_light"/>
+    <testcase classname="#demo-borderless" name=" ›› button_Type Borderless_hc_light"/>
+    <testcase classname="#demo-notification" name=" ›› button_With notification_hc_light"/>
+    <testcase classname="#demo-grouped-default" name=" ›› button_Grouped Default_hc_light"/>
+    <testcase classname="#demo-grouped-borderless" name=" ›› button_Grouped Borderless_hc_light"/>
+    <testcase classname="#demo-split" name=" ›› button_Type Split_hc_light"/>
+    <testcase classname="#demo-combo-group" name=" ›› button_Type Input Button Combo_hc_light"/>
+    <testcase classname="#demo-ideas" name=" ›› button_Type Ideas_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› carousel_Type default_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› carousel_State hover &amp; focus_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› checkbox_default_hc_light"/>
+    <testcase classname="#demo-inline" name=" ›› checkbox_inline_hc_light"/>
+    <testcase classname="#demo-no-label" name=" ›› checkbox_no-label_hc_light"/>
+    <testcase classname="#demo-special" name=" ›› checkbox_Type specialty_hc_light"/>
+    <testcase classname="#demo-codeblock" name=" ›› code_Type Codeblock_hc_light"/>
+    <testcase classname="#demo-codeblock" name=" ›› code_Scroll Codeblock_hc_light"/>
+    <testcase classname="#demo-inline" name=" ›› code_Type Inline_hc_light"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_Basic_hc_light"/>
+    <testcase classname="#demo-advanced" name=" ›› color-picker_Advanced_hc_light"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_State hover color swatch_hc_light"/>
+    <testcase classname="#demo-advanced-interactions" name=" ›› color-picker_State hover color dot_hc_light"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_State focus color swatch_hc_light"/>
+    <testcase classname="#demo-advanced-interactions" name=" ›› color-picker_State focus color dot_hc_light"/>
+    <testcase classname="#demo-all" name=" ›› color_Type all_hc_light"/>
+    <testcase classname="#demo-text" name=" ›› column-filter_Type Text filter_hc_light"/>
+    <testcase classname="#demo-date" name=" ›› column-filter_Type Date filter_hc_light"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_Type Date_hc_light"/>
+    <testcase classname="#demo-date-year-skipping" name=" ›› date-picker_Type Date with year skipping buttons_hc_light"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_Type Date &amp; Time_hc_light"/>
+    <testcase classname="#demo-date-and-time-24h" name=" ›› date-picker_Type Date &amp; Time 24 hour format_hc_light"/>
+    <testcase classname="#demo-date-range" name=" ›› date-picker_Type Date Range_hc_light"/>
+    <testcase classname="#demo-dates-disabled" name=" ›› date-picker_Type Some dates disabled_hc_light"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_State hover date_hc_light"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_State hover time_hc_light"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_State focus date_hc_light"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_State focus time_hc_light"/>
+    <testcase classname="#demo-date-range" name=" ›› date-picker_State focus range_hc_light"/>
+    <testcase classname="document" name=" ›› dialog_basic_hc_light"/>
+    <testcase classname="document" name=" ›› dialog_full-page-dialog_hc_light"/>
+    <testcase classname="document" name=" ›› dialog_draggable-dialog_hc_light"/>
+    <testcase classname="document" name=" ›› dialog_dialog-top-left_hc_light"/>
+    <testcase classname="document" name=" ›› dialog_dialog-top-right_hc_light"/>
+    <testcase classname="document" name=" ›› dialog_dialog-bottom-left_hc_light"/>
+    <testcase classname="document" name=" ›› dialog_dialog-bottom-right_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› expandable-block_Type default_hc_light"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_Type with caption_hc_light"/>
+    <testcase classname="#demo-small" name=" ›› expandable-block_Type small_hc_light"/>
+    <testcase classname="#demo-borderless" name=" ›› expandable-block_Type borderless_hc_light"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_State hover_hc_light"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_State focus_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› fieldset_Type Default_hc_light"/>
+    <testcase classname="#demo-text-area" name=" ›› file-upload_Type text area_hc_light"/>
+    <testcase classname="#demo-table" name=" ›› file-upload_Type table_hc_light"/>
+    <testcase classname="#demo-no-wrap" name=" ›› file-upload_Type not wrapping anything_hc_light"/>
+    <testcase classname="#demo-file-card" name=" ›› file-upload_File card_hc_light"/>
+    <testcase classname="#demo-file-card-with-file-upload" name=" ›› file-upload_File card with iui-file-upload_hc_light"/>
+    <testcase classname="viewport" name=" ›› footer_Type hidden below viewport_hc_light"/>
+    <testcase classname="viewport" name=" ›› footer_Type visible in viewport_hc_light"/>
+    <testcase classname="viewport" name=" ›› footer_State hover and focus_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› header_Type Default_hc_light"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim_hc_light"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› header_Type Default State hover &amp; focus_hc_light"/>
+    <testcase classname="#demo-split" name=" ›› header_Type Default State hover &amp; focus_hc_light"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim State hover &amp; focus_hc_light"/>
+    <testcase classname="#demo-split" name=" ›› header_Type Split State hover &amp; focus_hc_light"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_hc_light"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_hc_light"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_hc_light"/>
+    <testcase classname="#demo-icons" name=" ›› icon_Basic_hc_light"/>
+    <testcase classname="#demo-status" name=" ›› icon_Status colors_hc_light"/>
+    <testcase classname="#demo-typography" name=" ›› icon_Autoscale with text_hc_light"/>
+    <testcase classname="#demo-edit" name=" ›› information-panel_Type default_hc_light"/>
+    <testcase classname="#demo-docked-bottom" name=" ›› information-panel_Type docked bottom_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› input_Type Default_hc_light"/>
+    <testcase classname="#demo-inline" name=" ›› input_Type Inline_hc_light"/>
+    <testcase classname="#demo-hybrid" name=" ›› input_Type Hybrid_hc_light"/>
+    <testcase classname="#demo-no-label" name=" ›› input_Type Without Label_hc_light"/>
+    <testcase classname="#demo-no-label.__n1" name=" ›› input_Type Without Label_hc_light"/>
+    <testcase classname="#demo-search-box" name=" ›› input_Type SearchBox_hc_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› input_State hover in default_hc_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› input_State focus in default_hc_light"/>
+    <testcase classname="#demo-status-singular" name=" ›› input_State hover with status_hc_light"/>
+    <testcase classname="#demo-status-singular" name=" ›› input_State focus with status_hc_light"/>
+    <testcase classname="html" name=" ›› keyboard_basic_hc_light"/>
+    <testcase classname="html" name=" ›› location-marker_basic_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› menu_Type Default_hc_light"/>
+    <testcase classname="#demo-header" name=" ›› menu_Type Header_hc_light"/>
+    <testcase classname="#demo-skeleton" name=" ›› menu_Type Skeleton_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› menu_State hover &amp; focus_hc_light"/>
+    <testcase classname="#demo-skeleton" name=" ›› menu_Hover Skeleton_hc_light"/>
+    <testcase classname="#nis-401 .iui-non-ideal-state" name=" ›› non-ideal-state_401_hc_light"/>
+    <testcase classname="#nis-403 .iui-non-ideal-state" name=" ›› non-ideal-state_403_hc_light"/>
+    <testcase classname="#nis-404 .iui-non-ideal-state" name=" ›› non-ideal-state_404_hc_light"/>
+    <testcase classname="#nis-500 .iui-non-ideal-state" name=" ›› non-ideal-state_500_hc_light"/>
+    <testcase classname="#nis-502 .iui-non-ideal-state" name=" ›› non-ideal-state_502_hc_light"/>
+    <testcase classname="#nis-503 .iui-non-ideal-state" name=" ›› non-ideal-state_503_hc_light"/>
+    <testcase classname="#nis-error .iui-non-ideal-state" name=" ›› non-ideal-state_error_hc_light"/>
+    <testcase classname="#nis-timed-out .iui-non-ideal-state" name=" ›› non-ideal-state_timed-out_hc_light"/>
+    <testcase classname="#nis-redirect .iui-non-ideal-state" name=" ›› non-ideal-state_redirect_hc_light"/>
+    <testcase classname="#nis-multi-redirect .iui-non-ideal-state" name=" ›› non-ideal-state_multi-redirect_hc_light"/>
+    <testcase classname="#demo-linear" name=" ›› progress-indicator_linear_hc_light"/>
+    <testcase classname="#demo-radial" name=" ›› progress-indicator_radial_hc_light"/>
+    <testcase classname="#demo-overlay" name=" ›› progress-indicator_overlay_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_default_hc_light"/>
+    <testcase classname="#demo-alternative-layouts" name=" ›› radio-tile_alternative layouts_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State hover_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State focus_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State focus and checked_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› radio_default_hc_light"/>
+    <testcase classname="#demo-inline" name=" ›› radio_inline_hc_light"/>
+    <testcase classname="#demo-label" name=" ›› radio_label_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› select_Type Default_hc_light"/>
+    <testcase classname="#demo-sizes" name=" ›› select_Sizes_hc_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› select_State hover_hc_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› select_State focus_hc_light"/>
+    <testcase classname="#demo-inline-combo" name=" ›› select_Inline combo_hc_light"/>
+    <testcase classname="#demo-multi" name=" ›› select_Type Multi_hc_light"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_Type collapsed_hc_light"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_Type expanded_hc_light"/>
+    <testcase classname="#demo-side-navigation-submenu" name=" ›› side-navigation_Type submenu_hc_light"/>
+    <testcase classname="#demo-side-navigation-submenu-active" name=" ›› side-navigation_Type submenu &amp; active_hc_light"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_State collapsed hover and focus_hc_light"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_State expanded hover and focus_hc_light"/>
+    <testcase classname="viewport" name=" ›› skip-to-content_Type focus_hc_light"/>
+    <testcase classname="viewport" name=" ›› skip-to-content_Type focus and hover_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› slider_Type Default_hc_light"/>
+    <testcase classname="#demo-range" name=" ›› slider_Type Range_hc_light"/>
+    <testcase classname="#demo-default-vertical" name=" ›› slider_Type Default Vertical_hc_light"/>
+    <testcase classname="#demo-range-vertical" name=" ›› slider_Type Range Vertical_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› slider_State hover &amp; focus_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› stepper_Type default_hc_light"/>
+    <testcase classname="#demo-long" name=" ›› stepper_Type long_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› stepper_State default hover on complete_hc_light"/>
+    <testcase classname="#demo-long" name=" ›› stepper_State long focus on complete_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› surface_Type default_hc_light"/>
+    <testcase classname="#demo-elevations" name=" ›› surface_Type elevations_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› table_Type Default_hc_light"/>
+    <testcase classname="#demo-extras" name=" ›› table_Type Extras_hc_light"/>
+    <testcase classname="#demo-expandable-rows" name=" ›› table_Type Expandable Rows_hc_light"/>
+    <testcase classname="#demo-loading" name=" ›› table_Type Loading_hc_light"/>
+    <testcase classname="#demo-empty-state" name=" ›› table_Type Empty_hc_light"/>
+    <testcase classname="#demo-status" name=" ›› table_Type Status_hc_light"/>
+    <testcase classname="#demo-default .iui-table:nth-child(1)" name=" ›› table_Editable cell_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› tabs_Type default_hc_light"/>
+    <testcase classname="#demo-default-vertical" name=" ›› tabs_Type default vertical_hc_light"/>
+    <testcase classname="#demo-borderless" name=" ›› tabs_Type borderless_hc_light"/>
+    <testcase classname="#demo-borderless-vertical" name=" ›› tabs_Type borderless vertical_hc_light"/>
+    <testcase classname="#demo-pill" name=" ›› tabs_Type pill_hc_light"/>
+    <testcase classname="#demo-default-2" name=" ›› tabs_State hover &amp; focus in default_hc_light"/>
+    <testcase classname="#demo-borderless-2" name=" ›› tabs_State hover &amp; focus in borderless_hc_light"/>
+    <testcase classname="#demo-pill-2" name=" ›› tabs_State hover &amp; focus in pill_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› tag_Type Default_hc_light"/>
+    <testcase classname="#demo-basic" name=" ›› tag_Type Basic_hc_light"/>
+    <testcase classname="#demo-default-container" name=" ›› tag_Type Container_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› tag_State hover &amp; focus_hc_light"/>
+    <testcase classname="#demo-basic" name=" ›› tag_State hover basic_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› textarea_default_hc_light"/>
+    <testcase classname="#demo-inline" name=" ›› textarea_inline_hc_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› textarea_State hover in default_hc_light"/>
+    <testcase classname="#demo-default-singular" name=" ›› textarea_State focus in default_hc_light"/>
+    <testcase classname="#demo-status-singular" name=" ›› textarea_State hover with status_hc_light"/>
+    <testcase classname="#demo-status-singular" name=" ›› textarea_State focus with status_hc_light"/>
+    <testcase classname="#demo-everything-turned-on" name=" ›› tile_Type Everything turned on_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› tile_Type Default_hc_light"/>
+    <testcase classname="#demo-action-states" name=" ›› tile_Type Action States_hc_light"/>
+    <testcase classname="#demo-action-states-folders" name=" ›› tile_Type Folder Action States_hc_light"/>
+    <testcase classname="#demo-user" name=" ›› tile_Type User_hc_light"/>
+    <testcase classname="#demo-video" name=" ›› tile_Type Video_hc_light"/>
+    <testcase classname="#demo-folder" name=" ›› tile_Type Folder_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› tile_State hover_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› tile_State hover with thumbnail_hc_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Type Indicator hover_hc_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Type Indicator hover with thumbnail_hc_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Quick Action hover_hc_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Quick Action hover with thumbnail_hc_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State More Options hover_hc_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Double Button hover_hc_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Single Button hover_hc_light"/>
+    <testcase classname="#test-tile-4" name=" ›› tile_State focus_hc_light"/>
+    <testcase classname="#test-tile-5" name=" ›› tile_State focus with thumbnail_hc_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Type Indicator focus_hc_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Type Indicator focus with thumbnail_hc_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Quick Action focus_hc_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Quick Action focus with thumbnail_hc_light"/>
+    <testcase classname="#test-tile-3" name=" ›› tile_State Play Icon focus with thumbnail_hc_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State More Options focus_hc_light"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Double Button focus_hc_light"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Single Button focus_hc_light"/>
+    <testcase classname="#demo-time" name=" ›› time-picker_Type Time_hc_light"/>
+    <testcase classname="#demo-time-minutes" name=" ›› time-picker_Type Time with minutes_hc_light"/>
+    <testcase classname=".iui-toast-wrapper" name=" ›› toast_Type All_hc_light"/>
+    <testcase classname="#demo-informational" name=" ›› toast_State hover link in informational_hc_light"/>
+    <testcase classname="#demo-positive" name=" ›› toast_State hover link in positive_hc_light"/>
+    <testcase classname="#demo-negative" name=" ›› toast_State hover link in negative_hc_light"/>
+    <testcase classname="#demo-warning" name=" ›› toast_State hover link in warning_hc_light"/>
+    <testcase classname="#demo-informational" name=" ›› toast_State focus link in informational_hc_light"/>
+    <testcase classname="#demo-positive" name=" ›› toast_State focus link in positive_hc_light"/>
+    <testcase classname="#demo-negative" name=" ›› toast_State focus link in negative_hc_light"/>
+    <testcase classname="#demo-warning" name=" ›› toast_State focus link in warning_hc_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top start placement_hc_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top placement_hc_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top end placement_hc_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom start placement_hc_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom placement_hc_light"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom end placement_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_Type Default_hc_light"/>
+    <testcase classname="#demo-small" name=" ›› toggle-switch_Type Small_hc_light"/>
+    <testcase classname="#demo-toggle-right" name=" ›› toggle-switch_Type label left_hc_light"/>
+    <testcase classname="#demo-toggle-left" name=" ›› toggle-switch_Type label right_hc_light"/>
+    <testcase classname="#demo-toggle-no-label" name=" ›› toggle-switch_Type label none_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_State hover checked &amp; focus unchecked_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_State focus checked &amp; hover unchecked_hc_light"/>
+    <testcase classname="#demo-tooltip" name=" ›› tooltip_Type All_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› tree_Default_hc_light"/>
+    <testcase classname="#demo-captions" name=" ›› tree_With Captions_hc_light"/>
+    <testcase classname="#demo-checkbox" name=" ›› tree_With Checkbox_hc_light"/>
+    <testcase classname="#demo-disabled" name=" ›› tree_Disabled_hc_light"/>
+    <testcase classname="#demo-icons" name=" ›› tree_With Icons_hc_light"/>
+    <testcase classname="#demo-captions" name=" ›› tree_State hover tree node_hc_light"/>
+    <testcase classname="#demo-captions" name=" ›› tree_State focus tree node_hc_light"/>
+    <testcase classname="#demo-typography" name=" ›› typography_Type all_hc_light"/>
+    <testcase classname="#demo-typography" name=" ›› typography_Type skeleton text_hc_light"/>
+    <testcase classname="#demo-workflow" name=" ›› workflow-diagram_Type workflow_hc_light"/>
+    <testcase classname="#demo-default" name=" ›› alert_Type default_dark"/>
+    <testcase classname="#demo-sticky" name=" ›› alert_Type sticky_dark"/>
+    <testcase classname="#test-single-alert" name=" ›› alert_State hover link &amp; focus close button_dark"/>
+    <testcase classname="#test-single-alert" name=" ›› alert_State hover close button &amp; focus link_dark"/>
+    <testcase classname="#demo-default" name=" ›› anchor_All_dark"/>
+    <testcase classname="#demo-default" name=" ›› anchor_Hover 1st &amp; focus 2nd_dark"/>
+    <testcase classname="#demo-default" name=" ›› anchor_Hover 2nd &amp; focus 1st_dark"/>
+    <testcase classname="#demo-default" name=" ›› avatar_Type default_dark"/>
+    <testcase classname="#demo-status" name=" ›› avatar_Type online status_dark"/>
+    <testcase classname="#demo-list" name=" ›› avatar_Type list_dark"/>
+    <testcase classname="#demo-stacked" name=" ›› avatar_Type stacked_dark"/>
+    <testcase classname="#demo-animated" name=" ›› avatar_Type animated_dark"/>
+    <testcase classname="#demo-soft-backgrounds" name=" ›› badge_Type soft backgrounds_dark"/>
+    <testcase classname="#demo-statuses" name=" ›› badge_Type statuses_dark"/>
+    <testcase classname="#demo-default" name=" ›› blockquote_Type default_dark"/>
+    <testcase classname="#demo-anchors" name=" ›› breadcrumbs_State hover and focus links_dark"/>
+    <testcase classname="#demo-buttons" name=" ›› breadcrumbs_State hover and focus buttons_dark"/>
+    <testcase classname="#demo-anchors-2" name=" ›› breadcrumbs_State hover and focus breadcrumb anchors_dark"/>
+    <testcase classname="#demo-buttons-2" name=" ›› breadcrumbs_State hover and focus breadcrumb buttons_dark"/>
+    <testcase classname="#demo-buttons-3" name=" ›› breadcrumbs_State hover and focus overflow buttons_dark"/>
+    <testcase classname="#demo-high-visibility" name=" ›› button_Type High Visibility_dark"/>
+    <testcase classname="#demo-cta" name=" ›› button_Type CTA_dark"/>
+    <testcase classname="#demo-default" name=" ›› button_Type Default_dark"/>
+    <testcase classname="#demo-borderless" name=" ›› button_Type Borderless_dark"/>
+    <testcase classname="#demo-notification" name=" ›› button_With notification_dark"/>
+    <testcase classname="#demo-grouped-default" name=" ›› button_Grouped Default_dark"/>
+    <testcase classname="#demo-grouped-borderless" name=" ›› button_Grouped Borderless_dark"/>
+    <testcase classname="#demo-split" name=" ›› button_Type Split_dark"/>
+    <testcase classname="#demo-combo-group" name=" ›› button_Type Input Button Combo_dark"/>
+    <testcase classname="#demo-ideas" name=" ›› button_Type Ideas_dark"/>
+    <testcase classname="#demo-default" name=" ›› carousel_Type default_dark"/>
+    <testcase classname="#demo-default" name=" ›› carousel_State hover &amp; focus_dark"/>
+    <testcase classname="#demo-default" name=" ›› checkbox_default_dark"/>
+    <testcase classname="#demo-inline" name=" ›› checkbox_inline_dark"/>
+    <testcase classname="#demo-no-label" name=" ›› checkbox_no-label_dark"/>
+    <testcase classname="#demo-special" name=" ›› checkbox_Type specialty_dark"/>
+    <testcase classname="#demo-codeblock" name=" ›› code_Type Codeblock_dark"/>
+    <testcase classname="#demo-codeblock" name=" ›› code_Scroll Codeblock_dark"/>
+    <testcase classname="#demo-inline" name=" ›› code_Type Inline_dark"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_Basic_dark"/>
+    <testcase classname="#demo-advanced" name=" ›› color-picker_Advanced_dark"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_State hover color swatch_dark"/>
+    <testcase classname="#demo-advanced-interactions" name=" ›› color-picker_State hover color dot_dark"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_State focus color swatch_dark"/>
+    <testcase classname="#demo-advanced-interactions" name=" ›› color-picker_State focus color dot_dark"/>
+    <testcase classname="#demo-all" name=" ›› color_Type all_dark"/>
+    <testcase classname="#demo-text" name=" ›› column-filter_Type Text filter_dark"/>
+    <testcase classname="#demo-date" name=" ›› column-filter_Type Date filter_dark"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_Type Date_dark"/>
+    <testcase classname="#demo-date-year-skipping" name=" ›› date-picker_Type Date with year skipping buttons_dark"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_Type Date &amp; Time_dark"/>
+    <testcase classname="#demo-date-and-time-24h" name=" ›› date-picker_Type Date &amp; Time 24 hour format_dark"/>
+    <testcase classname="#demo-date-range" name=" ›› date-picker_Type Date Range_dark"/>
+    <testcase classname="#demo-dates-disabled" name=" ›› date-picker_Type Some dates disabled_dark"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_State hover date_dark"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_State hover time_dark"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_State focus date_dark"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_State focus time_dark"/>
+    <testcase classname="#demo-date-range" name=" ›› date-picker_State focus range_dark"/>
+    <testcase classname="document" name=" ›› dialog_basic_dark"/>
+    <testcase classname="document" name=" ›› dialog_full-page-dialog_dark"/>
+    <testcase classname="document" name=" ›› dialog_draggable-dialog_dark"/>
+    <testcase classname="document" name=" ›› dialog_dialog-top-left_dark"/>
+    <testcase classname="document" name=" ›› dialog_dialog-top-right_dark"/>
+    <testcase classname="document" name=" ›› dialog_dialog-bottom-left_dark"/>
+    <testcase classname="document" name=" ›› dialog_dialog-bottom-right_dark"/>
+    <testcase classname="#demo-default" name=" ›› expandable-block_Type default_dark"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_Type with caption_dark"/>
+    <testcase classname="#demo-small" name=" ›› expandable-block_Type small_dark"/>
+    <testcase classname="#demo-borderless" name=" ›› expandable-block_Type borderless_dark"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_State hover_dark"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_State focus_dark"/>
+    <testcase classname="#demo-default" name=" ›› fieldset_Type Default_dark"/>
+    <testcase classname="#demo-text-area" name=" ›› file-upload_Type text area_dark"/>
+    <testcase classname="#demo-table" name=" ›› file-upload_Type table_dark"/>
+    <testcase classname="#demo-no-wrap" name=" ›› file-upload_Type not wrapping anything_dark"/>
+    <testcase classname="#demo-file-card" name=" ›› file-upload_File card_dark"/>
+    <testcase classname="#demo-file-card-with-file-upload" name=" ›› file-upload_File card with iui-file-upload_dark"/>
+    <testcase classname="viewport" name=" ›› footer_Type hidden below viewport_dark"/>
+    <testcase classname="viewport" name=" ›› footer_Type visible in viewport_dark"/>
+    <testcase classname="viewport" name=" ›› footer_State hover and focus_dark"/>
+    <testcase classname="#demo-default" name=" ›› header_Type Default_dark"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim_dark"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim_dark"/>
+    <testcase classname="#demo-default" name=" ›› header_Type Default State hover &amp; focus_dark"/>
+    <testcase classname="#demo-split" name=" ›› header_Type Default State hover &amp; focus_dark"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim State hover &amp; focus_dark"/>
+    <testcase classname="#demo-split" name=" ›› header_Type Split State hover &amp; focus_dark"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_dark"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_dark"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_dark"/>
+    <testcase classname="#demo-icons" name=" ›› icon_Basic_dark"/>
+    <testcase classname="#demo-status" name=" ›› icon_Status colors_dark"/>
+    <testcase classname="#demo-typography" name=" ›› icon_Autoscale with text_dark"/>
+    <testcase classname="#demo-edit" name=" ›› information-panel_Type default_dark"/>
+    <testcase classname="#demo-docked-bottom" name=" ›› information-panel_Type docked bottom_dark"/>
+    <testcase classname="#demo-default" name=" ›› input_Type Default_dark"/>
+    <testcase classname="#demo-inline" name=" ›› input_Type Inline_dark"/>
+    <testcase classname="#demo-hybrid" name=" ›› input_Type Hybrid_dark"/>
+    <testcase classname="#demo-no-label" name=" ›› input_Type Without Label_dark"/>
+    <testcase classname="#demo-no-label.__n1" name=" ›› input_Type Without Label_dark"/>
+    <testcase classname="#demo-search-box" name=" ›› input_Type SearchBox_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› input_State hover in default_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› input_State focus in default_dark"/>
+    <testcase classname="#demo-status-singular" name=" ›› input_State hover with status_dark"/>
+    <testcase classname="#demo-status-singular" name=" ›› input_State focus with status_dark"/>
+    <testcase classname="html" name=" ›› keyboard_basic_dark"/>
+    <testcase classname="html" name=" ›› location-marker_basic_dark"/>
+    <testcase classname="#demo-default" name=" ›› menu_Type Default_dark"/>
+    <testcase classname="#demo-header" name=" ›› menu_Type Header_dark"/>
+    <testcase classname="#demo-skeleton" name=" ›› menu_Type Skeleton_dark"/>
+    <testcase classname="#demo-default" name=" ›› menu_State hover &amp; focus_dark"/>
+    <testcase classname="#demo-skeleton" name=" ›› menu_Hover Skeleton_dark"/>
+    <testcase classname="#nis-401 .iui-non-ideal-state" name=" ›› non-ideal-state_401_dark"/>
+    <testcase classname="#nis-403 .iui-non-ideal-state" name=" ›› non-ideal-state_403_dark"/>
+    <testcase classname="#nis-404 .iui-non-ideal-state" name=" ›› non-ideal-state_404_dark"/>
+    <testcase classname="#nis-500 .iui-non-ideal-state" name=" ›› non-ideal-state_500_dark"/>
+    <testcase classname="#nis-502 .iui-non-ideal-state" name=" ›› non-ideal-state_502_dark"/>
+    <testcase classname="#nis-503 .iui-non-ideal-state" name=" ›› non-ideal-state_503_dark"/>
+    <testcase classname="#nis-error .iui-non-ideal-state" name=" ›› non-ideal-state_error_dark"/>
+    <testcase classname="#nis-timed-out .iui-non-ideal-state" name=" ›› non-ideal-state_timed-out_dark"/>
+    <testcase classname="#nis-redirect .iui-non-ideal-state" name=" ›› non-ideal-state_redirect_dark"/>
+    <testcase classname="#nis-multi-redirect .iui-non-ideal-state" name=" ›› non-ideal-state_multi-redirect_dark"/>
+    <testcase classname="#demo-linear" name=" ›› progress-indicator_linear_dark"/>
+    <testcase classname="#demo-radial" name=" ›› progress-indicator_radial_dark"/>
+    <testcase classname="#demo-overlay" name=" ›› progress-indicator_overlay_dark"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_default_dark"/>
+    <testcase classname="#demo-alternative-layouts" name=" ›› radio-tile_alternative layouts_dark"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State hover_dark"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State focus_dark"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State focus and checked_dark"/>
+    <testcase classname="#demo-default" name=" ›› radio_default_dark"/>
+    <testcase classname="#demo-inline" name=" ›› radio_inline_dark"/>
+    <testcase classname="#demo-label" name=" ›› radio_label_dark"/>
+    <testcase classname="#demo-default" name=" ›› select_Type Default_dark"/>
+    <testcase classname="#demo-sizes" name=" ›› select_Sizes_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› select_State hover_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› select_State focus_dark"/>
+    <testcase classname="#demo-inline-combo" name=" ›› select_Inline combo_dark"/>
+    <testcase classname="#demo-multi" name=" ›› select_Type Multi_dark"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_Type collapsed_dark"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_Type expanded_dark"/>
+    <testcase classname="#demo-side-navigation-submenu" name=" ›› side-navigation_Type submenu_dark"/>
+    <testcase classname="#demo-side-navigation-submenu-active" name=" ›› side-navigation_Type submenu &amp; active_dark"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_State collapsed hover and focus_dark"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_State expanded hover and focus_dark"/>
+    <testcase classname="viewport" name=" ›› skip-to-content_Type focus_dark"/>
+    <testcase classname="viewport" name=" ›› skip-to-content_Type focus and hover_dark"/>
+    <testcase classname="#demo-default" name=" ›› slider_Type Default_dark"/>
+    <testcase classname="#demo-range" name=" ›› slider_Type Range_dark"/>
+    <testcase classname="#demo-default-vertical" name=" ›› slider_Type Default Vertical_dark"/>
+    <testcase classname="#demo-range-vertical" name=" ›› slider_Type Range Vertical_dark"/>
+    <testcase classname="#demo-default" name=" ›› slider_State hover &amp; focus_dark"/>
+    <testcase classname="#demo-default" name=" ›› stepper_Type default_dark"/>
+    <testcase classname="#demo-long" name=" ›› stepper_Type long_dark"/>
+    <testcase classname="#demo-default" name=" ›› stepper_State default hover on complete_dark"/>
+    <testcase classname="#demo-long" name=" ›› stepper_State long focus on complete_dark"/>
+    <testcase classname="#demo-default" name=" ›› surface_Type default_dark"/>
+    <testcase classname="#demo-elevations" name=" ›› surface_Type elevations_dark"/>
+    <testcase classname="#demo-default" name=" ›› table_Type Default_dark"/>
+    <testcase classname="#demo-extras" name=" ›› table_Type Extras_dark"/>
+    <testcase classname="#demo-expandable-rows" name=" ›› table_Type Expandable Rows_dark"/>
+    <testcase classname="#demo-loading" name=" ›› table_Type Loading_dark"/>
+    <testcase classname="#demo-empty-state" name=" ›› table_Type Empty_dark"/>
+    <testcase classname="#demo-status" name=" ›› table_Type Status_dark"/>
+    <testcase classname="#demo-default .iui-table:nth-child(1)" name=" ›› table_Editable cell_dark"/>
+    <testcase classname="#demo-default" name=" ›› tabs_Type default_dark"/>
+    <testcase classname="#demo-default-vertical" name=" ›› tabs_Type default vertical_dark"/>
+    <testcase classname="#demo-borderless" name=" ›› tabs_Type borderless_dark"/>
+    <testcase classname="#demo-borderless-vertical" name=" ›› tabs_Type borderless vertical_dark"/>
+    <testcase classname="#demo-pill" name=" ›› tabs_Type pill_dark"/>
+    <testcase classname="#demo-default-2" name=" ›› tabs_State hover &amp; focus in default_dark"/>
+    <testcase classname="#demo-borderless-2" name=" ›› tabs_State hover &amp; focus in borderless_dark"/>
+    <testcase classname="#demo-pill-2" name=" ›› tabs_State hover &amp; focus in pill_dark"/>
+    <testcase classname="#demo-default" name=" ›› tag_Type Default_dark"/>
+    <testcase classname="#demo-basic" name=" ›› tag_Type Basic_dark"/>
+    <testcase classname="#demo-default-container" name=" ›› tag_Type Container_dark"/>
+    <testcase classname="#demo-default" name=" ›› tag_State hover &amp; focus_dark"/>
+    <testcase classname="#demo-basic" name=" ›› tag_State hover basic_dark"/>
+    <testcase classname="#demo-default" name=" ›› textarea_default_dark"/>
+    <testcase classname="#demo-inline" name=" ›› textarea_inline_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› textarea_State hover in default_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› textarea_State focus in default_dark"/>
+    <testcase classname="#demo-status-singular" name=" ›› textarea_State hover with status_dark"/>
+    <testcase classname="#demo-status-singular" name=" ›› textarea_State focus with status_dark"/>
+    <testcase classname="#demo-everything-turned-on" name=" ›› tile_Type Everything turned on_dark"/>
+    <testcase classname="#demo-default" name=" ›› tile_Type Default_dark"/>
+    <testcase classname="#demo-action-states" name=" ›› tile_Type Action States_dark"/>
+    <testcase classname="#demo-action-states-folders" name=" ›› tile_Type Folder Action States_dark"/>
+    <testcase classname="#demo-user" name=" ›› tile_Type User_dark"/>
+    <testcase classname="#demo-video" name=" ›› tile_Type Video_dark"/>
+    <testcase classname="#demo-folder" name=" ›› tile_Type Folder_dark"/>
+    <testcase classname="#demo-default" name=" ›› tile_State hover_dark"/>
+    <testcase classname="#demo-default" name=" ›› tile_State hover with thumbnail_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Type Indicator hover_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Type Indicator hover with thumbnail_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Quick Action hover_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Quick Action hover with thumbnail_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State More Options hover_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Double Button hover_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Single Button hover_dark"/>
+    <testcase classname="#test-tile-4" name=" ›› tile_State focus_dark"/>
+    <testcase classname="#test-tile-5" name=" ›› tile_State focus with thumbnail_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Type Indicator focus_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Type Indicator focus with thumbnail_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Quick Action focus_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Quick Action focus with thumbnail_dark"/>
+    <testcase classname="#test-tile-3" name=" ›› tile_State Play Icon focus with thumbnail_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State More Options focus_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Double Button focus_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Single Button focus_dark"/>
+    <testcase classname="#demo-time" name=" ›› time-picker_Type Time_dark"/>
+    <testcase classname="#demo-time-minutes" name=" ›› time-picker_Type Time with minutes_dark"/>
+    <testcase classname=".iui-toast-wrapper" name=" ›› toast_Type All_dark"/>
+    <testcase classname="#demo-informational" name=" ›› toast_State hover link in informational_dark"/>
+    <testcase classname="#demo-positive" name=" ›› toast_State hover link in positive_dark"/>
+    <testcase classname="#demo-negative" name=" ›› toast_State hover link in negative_dark"/>
+    <testcase classname="#demo-warning" name=" ›› toast_State hover link in warning_dark"/>
+    <testcase classname="#demo-informational" name=" ›› toast_State focus link in informational_dark"/>
+    <testcase classname="#demo-positive" name=" ›› toast_State focus link in positive_dark"/>
+    <testcase classname="#demo-negative" name=" ›› toast_State focus link in negative_dark"/>
+    <testcase classname="#demo-warning" name=" ›› toast_State focus link in warning_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top start placement_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top placement_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top end placement_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom start placement_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom placement_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom end placement_dark"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_Type Default_dark"/>
+    <testcase classname="#demo-small" name=" ›› toggle-switch_Type Small_dark"/>
+    <testcase classname="#demo-toggle-right" name=" ›› toggle-switch_Type label left_dark"/>
+    <testcase classname="#demo-toggle-left" name=" ›› toggle-switch_Type label right_dark"/>
+    <testcase classname="#demo-toggle-no-label" name=" ›› toggle-switch_Type label none_dark"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_State hover checked &amp; focus unchecked_dark"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_State focus checked &amp; hover unchecked_dark"/>
+    <testcase classname="#demo-tooltip" name=" ›› tooltip_Type All_dark"/>
+    <testcase classname="#demo-default" name=" ›› tree_Default_dark"/>
+    <testcase classname="#demo-captions" name=" ›› tree_With Captions_dark"/>
+    <testcase classname="#demo-checkbox" name=" ›› tree_With Checkbox_dark"/>
+    <testcase classname="#demo-disabled" name=" ›› tree_Disabled_dark"/>
+    <testcase classname="#demo-icons" name=" ›› tree_With Icons_dark"/>
+    <testcase classname="#demo-captions" name=" ›› tree_State hover tree node_dark"/>
+    <testcase classname="#demo-captions" name=" ›› tree_State focus tree node_dark"/>
+    <testcase classname="#demo-typography" name=" ›› typography_Type all_dark"/>
+    <testcase classname="#demo-typography" name=" ›› typography_Type skeleton text_dark"/>
+    <testcase classname="#demo-workflow" name=" ›› workflow-diagram_Type workflow_dark"/>
+    <testcase classname="#demo-default" name=" ›› alert_Type default_hc_dark"/>
+    <testcase classname="#demo-sticky" name=" ›› alert_Type sticky_hc_dark"/>
+    <testcase classname="#test-single-alert" name=" ›› alert_State hover link &amp; focus close button_hc_dark"/>
+    <testcase classname="#test-single-alert" name=" ›› alert_State hover close button &amp; focus link_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› anchor_All_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› anchor_Hover 1st &amp; focus 2nd_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› anchor_Hover 2nd &amp; focus 1st_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› avatar_Type default_hc_dark"/>
+    <testcase classname="#demo-status" name=" ›› avatar_Type online status_hc_dark"/>
+    <testcase classname="#demo-list" name=" ›› avatar_Type list_hc_dark"/>
+    <testcase classname="#demo-stacked" name=" ›› avatar_Type stacked_hc_dark"/>
+    <testcase classname="#demo-animated" name=" ›› avatar_Type animated_hc_dark"/>
+    <testcase classname="#demo-soft-backgrounds" name=" ›› badge_Type soft backgrounds_hc_dark"/>
+    <testcase classname="#demo-statuses" name=" ›› badge_Type statuses_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› blockquote_Type default_hc_dark"/>
+    <testcase classname="#demo-anchors" name=" ›› breadcrumbs_State hover and focus links_hc_dark"/>
+    <testcase classname="#demo-buttons" name=" ›› breadcrumbs_State hover and focus buttons_hc_dark"/>
+    <testcase classname="#demo-anchors-2" name=" ›› breadcrumbs_State hover and focus breadcrumb anchors_hc_dark"/>
+    <testcase classname="#demo-buttons-2" name=" ›› breadcrumbs_State hover and focus breadcrumb buttons_hc_dark"/>
+    <testcase classname="#demo-buttons-3" name=" ›› breadcrumbs_State hover and focus overflow buttons_hc_dark"/>
+    <testcase classname="#demo-high-visibility" name=" ›› button_Type High Visibility_hc_dark"/>
+    <testcase classname="#demo-cta" name=" ›› button_Type CTA_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› button_Type Default_hc_dark"/>
+    <testcase classname="#demo-borderless" name=" ›› button_Type Borderless_hc_dark"/>
+    <testcase classname="#demo-notification" name=" ›› button_With notification_hc_dark"/>
+    <testcase classname="#demo-grouped-default" name=" ›› button_Grouped Default_hc_dark"/>
+    <testcase classname="#demo-grouped-borderless" name=" ›› button_Grouped Borderless_hc_dark"/>
+    <testcase classname="#demo-split" name=" ›› button_Type Split_hc_dark"/>
+    <testcase classname="#demo-combo-group" name=" ›› button_Type Input Button Combo_hc_dark"/>
+    <testcase classname="#demo-ideas" name=" ›› button_Type Ideas_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› carousel_Type default_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› carousel_State hover &amp; focus_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› checkbox_default_hc_dark"/>
+    <testcase classname="#demo-inline" name=" ›› checkbox_inline_hc_dark"/>
+    <testcase classname="#demo-no-label" name=" ›› checkbox_no-label_hc_dark"/>
+    <testcase classname="#demo-special" name=" ›› checkbox_Type specialty_hc_dark"/>
+    <testcase classname="#demo-codeblock" name=" ›› code_Type Codeblock_hc_dark"/>
+    <testcase classname="#demo-codeblock" name=" ›› code_Scroll Codeblock_hc_dark"/>
+    <testcase classname="#demo-inline" name=" ›› code_Type Inline_hc_dark"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_Basic_hc_dark"/>
+    <testcase classname="#demo-advanced" name=" ›› color-picker_Advanced_hc_dark"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_State hover color swatch_hc_dark"/>
+    <testcase classname="#demo-advanced-interactions" name=" ›› color-picker_State hover color dot_hc_dark"/>
+    <testcase classname="#demo-basic" name=" ›› color-picker_State focus color swatch_hc_dark"/>
+    <testcase classname="#demo-advanced-interactions" name=" ›› color-picker_State focus color dot_hc_dark"/>
+    <testcase classname="#demo-all" name=" ›› color_Type all_hc_dark"/>
+    <testcase classname="#demo-text" name=" ›› column-filter_Type Text filter_hc_dark"/>
+    <testcase classname="#demo-date" name=" ›› column-filter_Type Date filter_hc_dark"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_Type Date_hc_dark"/>
+    <testcase classname="#demo-date-year-skipping" name=" ›› date-picker_Type Date with year skipping buttons_hc_dark"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_Type Date &amp; Time_hc_dark"/>
+    <testcase classname="#demo-date-and-time-24h" name=" ›› date-picker_Type Date &amp; Time 24 hour format_hc_dark"/>
+    <testcase classname="#demo-date-range" name=" ›› date-picker_Type Date Range_hc_dark"/>
+    <testcase classname="#demo-dates-disabled" name=" ›› date-picker_Type Some dates disabled_hc_dark"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_State hover date_hc_dark"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_State hover time_hc_dark"/>
+    <testcase classname="#demo-date" name=" ›› date-picker_State focus date_hc_dark"/>
+    <testcase classname="#demo-date-and-time" name=" ›› date-picker_State focus time_hc_dark"/>
+    <testcase classname="#demo-date-range" name=" ›› date-picker_State focus range_hc_dark"/>
+    <testcase classname="document" name=" ›› dialog_basic_hc_dark"/>
+    <testcase classname="document" name=" ›› dialog_full-page-dialog_hc_dark"/>
+    <testcase classname="document" name=" ›› dialog_draggable-dialog_hc_dark"/>
+    <testcase classname="document" name=" ›› dialog_dialog-top-left_hc_dark"/>
+    <testcase classname="document" name=" ›› dialog_dialog-top-right_hc_dark"/>
+    <testcase classname="document" name=" ›› dialog_dialog-bottom-left_hc_dark"/>
+    <testcase classname="document" name=" ›› dialog_dialog-bottom-right_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› expandable-block_Type default_hc_dark"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_Type with caption_hc_dark"/>
+    <testcase classname="#demo-small" name=" ›› expandable-block_Type small_hc_dark"/>
+    <testcase classname="#demo-borderless" name=" ›› expandable-block_Type borderless_hc_dark"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_State hover_hc_dark"/>
+    <testcase classname="#demo-captions" name=" ›› expandable-block_State focus_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› fieldset_Type Default_hc_dark"/>
+    <testcase classname="#demo-text-area" name=" ›› file-upload_Type text area_hc_dark"/>
+    <testcase classname="#demo-table" name=" ›› file-upload_Type table_hc_dark"/>
+    <testcase classname="#demo-no-wrap" name=" ›› file-upload_Type not wrapping anything_hc_dark"/>
+    <testcase classname="#demo-file-card" name=" ›› file-upload_File card_hc_dark"/>
+    <testcase classname="#demo-file-card-with-file-upload" name=" ›› file-upload_File card with iui-file-upload_hc_dark"/>
+    <testcase classname="viewport" name=" ›› footer_Type hidden below viewport_hc_dark"/>
+    <testcase classname="viewport" name=" ›› footer_Type visible in viewport_hc_dark"/>
+    <testcase classname="viewport" name=" ›› footer_State hover and focus_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› header_Type Default_hc_dark"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim_hc_dark"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› header_Type Default State hover &amp; focus_hc_dark"/>
+    <testcase classname="#demo-split" name=" ›› header_Type Default State hover &amp; focus_hc_dark"/>
+    <testcase classname="#demo-slim" name=" ›› header_Type Slim State hover &amp; focus_hc_dark"/>
+    <testcase classname="#demo-split" name=" ›› header_Type Split State hover &amp; focus_hc_dark"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_hc_dark"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_hc_dark"/>
+    <testcase classname="#demo-all" name=" ›› header_Type All - narrow screen_hc_dark"/>
+    <testcase classname="#demo-icons" name=" ›› icon_Basic_hc_dark"/>
+    <testcase classname="#demo-status" name=" ›› icon_Status colors_hc_dark"/>
+    <testcase classname="#demo-typography" name=" ›› icon_Autoscale with text_hc_dark"/>
+    <testcase classname="#demo-edit" name=" ›› information-panel_Type default_hc_dark"/>
+    <testcase classname="#demo-docked-bottom" name=" ›› information-panel_Type docked bottom_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› input_Type Default_hc_dark"/>
+    <testcase classname="#demo-inline" name=" ›› input_Type Inline_hc_dark"/>
+    <testcase classname="#demo-hybrid" name=" ›› input_Type Hybrid_hc_dark"/>
+    <testcase classname="#demo-no-label" name=" ›› input_Type Without Label_hc_dark"/>
+    <testcase classname="#demo-no-label.__n1" name=" ›› input_Type Without Label_hc_dark"/>
+    <testcase classname="#demo-search-box" name=" ›› input_Type SearchBox_hc_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› input_State hover in default_hc_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› input_State focus in default_hc_dark"/>
+    <testcase classname="#demo-status-singular" name=" ›› input_State hover with status_hc_dark"/>
+    <testcase classname="#demo-status-singular" name=" ›› input_State focus with status_hc_dark"/>
+    <testcase classname="html" name=" ›› keyboard_basic_hc_dark"/>
+    <testcase classname="html" name=" ›› location-marker_basic_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› menu_Type Default_hc_dark"/>
+    <testcase classname="#demo-header" name=" ›› menu_Type Header_hc_dark"/>
+    <testcase classname="#demo-skeleton" name=" ›› menu_Type Skeleton_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› menu_State hover &amp; focus_hc_dark"/>
+    <testcase classname="#demo-skeleton" name=" ›› menu_Hover Skeleton_hc_dark"/>
+    <testcase classname="#nis-401 .iui-non-ideal-state" name=" ›› non-ideal-state_401_hc_dark"/>
+    <testcase classname="#nis-403 .iui-non-ideal-state" name=" ›› non-ideal-state_403_hc_dark"/>
+    <testcase classname="#nis-404 .iui-non-ideal-state" name=" ›› non-ideal-state_404_hc_dark"/>
+    <testcase classname="#nis-500 .iui-non-ideal-state" name=" ›› non-ideal-state_500_hc_dark"/>
+    <testcase classname="#nis-502 .iui-non-ideal-state" name=" ›› non-ideal-state_502_hc_dark"/>
+    <testcase classname="#nis-503 .iui-non-ideal-state" name=" ›› non-ideal-state_503_hc_dark"/>
+    <testcase classname="#nis-error .iui-non-ideal-state" name=" ›› non-ideal-state_error_hc_dark"/>
+    <testcase classname="#nis-timed-out .iui-non-ideal-state" name=" ›› non-ideal-state_timed-out_hc_dark"/>
+    <testcase classname="#nis-redirect .iui-non-ideal-state" name=" ›› non-ideal-state_redirect_hc_dark"/>
+    <testcase classname="#nis-multi-redirect .iui-non-ideal-state" name=" ›› non-ideal-state_multi-redirect_hc_dark"/>
+    <testcase classname="#demo-linear" name=" ›› progress-indicator_linear_hc_dark"/>
+    <testcase classname="#demo-radial" name=" ›› progress-indicator_radial_hc_dark"/>
+    <testcase classname="#demo-overlay" name=" ›› progress-indicator_overlay_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_default_hc_dark"/>
+    <testcase classname="#demo-alternative-layouts" name=" ›› radio-tile_alternative layouts_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State hover_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State focus_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› radio-tile_State focus and checked_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› radio_default_hc_dark"/>
+    <testcase classname="#demo-inline" name=" ›› radio_inline_hc_dark"/>
+    <testcase classname="#demo-label" name=" ›› radio_label_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› select_Type Default_hc_dark"/>
+    <testcase classname="#demo-sizes" name=" ›› select_Sizes_hc_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› select_State hover_hc_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› select_State focus_hc_dark"/>
+    <testcase classname="#demo-inline-combo" name=" ›› select_Inline combo_hc_dark"/>
+    <testcase classname="#demo-multi" name=" ›› select_Type Multi_hc_dark"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_Type collapsed_hc_dark"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_Type expanded_hc_dark"/>
+    <testcase classname="#demo-side-navigation-submenu" name=" ›› side-navigation_Type submenu_hc_dark"/>
+    <testcase classname="#demo-side-navigation-submenu-active" name=" ›› side-navigation_Type submenu &amp; active_hc_dark"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_State collapsed hover and focus_hc_dark"/>
+    <testcase classname="#demo-side-navigation" name=" ›› side-navigation_State expanded hover and focus_hc_dark"/>
+    <testcase classname="viewport" name=" ›› skip-to-content_Type focus_hc_dark"/>
+    <testcase classname="viewport" name=" ›› skip-to-content_Type focus and hover_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› slider_Type Default_hc_dark"/>
+    <testcase classname="#demo-range" name=" ›› slider_Type Range_hc_dark"/>
+    <testcase classname="#demo-default-vertical" name=" ›› slider_Type Default Vertical_hc_dark"/>
+    <testcase classname="#demo-range-vertical" name=" ›› slider_Type Range Vertical_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› slider_State hover &amp; focus_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› stepper_Type default_hc_dark"/>
+    <testcase classname="#demo-long" name=" ›› stepper_Type long_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› stepper_State default hover on complete_hc_dark"/>
+    <testcase classname="#demo-long" name=" ›› stepper_State long focus on complete_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› surface_Type default_hc_dark"/>
+    <testcase classname="#demo-elevations" name=" ›› surface_Type elevations_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› table_Type Default_hc_dark"/>
+    <testcase classname="#demo-extras" name=" ›› table_Type Extras_hc_dark"/>
+    <testcase classname="#demo-expandable-rows" name=" ›› table_Type Expandable Rows_hc_dark"/>
+    <testcase classname="#demo-loading" name=" ›› table_Type Loading_hc_dark"/>
+    <testcase classname="#demo-empty-state" name=" ›› table_Type Empty_hc_dark"/>
+    <testcase classname="#demo-status" name=" ›› table_Type Status_hc_dark"/>
+    <testcase classname="#demo-default .iui-table:nth-child(1)" name=" ›› table_Editable cell_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› tabs_Type default_hc_dark"/>
+    <testcase classname="#demo-default-vertical" name=" ›› tabs_Type default vertical_hc_dark"/>
+    <testcase classname="#demo-borderless" name=" ›› tabs_Type borderless_hc_dark"/>
+    <testcase classname="#demo-borderless-vertical" name=" ›› tabs_Type borderless vertical_hc_dark"/>
+    <testcase classname="#demo-pill" name=" ›› tabs_Type pill_hc_dark"/>
+    <testcase classname="#demo-default-2" name=" ›› tabs_State hover &amp; focus in default_hc_dark"/>
+    <testcase classname="#demo-borderless-2" name=" ›› tabs_State hover &amp; focus in borderless_hc_dark"/>
+    <testcase classname="#demo-pill-2" name=" ›› tabs_State hover &amp; focus in pill_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› tag_Type Default_hc_dark"/>
+    <testcase classname="#demo-basic" name=" ›› tag_Type Basic_hc_dark"/>
+    <testcase classname="#demo-default-container" name=" ›› tag_Type Container_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› tag_State hover &amp; focus_hc_dark"/>
+    <testcase classname="#demo-basic" name=" ›› tag_State hover basic_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› textarea_default_hc_dark"/>
+    <testcase classname="#demo-inline" name=" ›› textarea_inline_hc_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› textarea_State hover in default_hc_dark"/>
+    <testcase classname="#demo-default-singular" name=" ›› textarea_State focus in default_hc_dark"/>
+    <testcase classname="#demo-status-singular" name=" ›› textarea_State hover with status_hc_dark"/>
+    <testcase classname="#demo-status-singular" name=" ›› textarea_State focus with status_hc_dark"/>
+    <testcase classname="#demo-everything-turned-on" name=" ›› tile_Type Everything turned on_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› tile_Type Default_hc_dark"/>
+    <testcase classname="#demo-action-states" name=" ›› tile_Type Action States_hc_dark"/>
+    <testcase classname="#demo-action-states-folders" name=" ›› tile_Type Folder Action States_hc_dark"/>
+    <testcase classname="#demo-user" name=" ›› tile_Type User_hc_dark"/>
+    <testcase classname="#demo-video" name=" ›› tile_Type Video_hc_dark"/>
+    <testcase classname="#demo-folder" name=" ›› tile_Type Folder_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› tile_State hover_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› tile_State hover with thumbnail_hc_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Type Indicator hover_hc_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Type Indicator hover with thumbnail_hc_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Quick Action hover_hc_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Quick Action hover with thumbnail_hc_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State More Options hover_hc_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Double Button hover_hc_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Single Button hover_hc_dark"/>
+    <testcase classname="#test-tile-4" name=" ›› tile_State focus_hc_dark"/>
+    <testcase classname="#test-tile-5" name=" ›› tile_State focus with thumbnail_hc_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Type Indicator focus_hc_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Type Indicator focus with thumbnail_hc_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Quick Action focus_hc_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Quick Action focus with thumbnail_hc_dark"/>
+    <testcase classname="#test-tile-3" name=" ›› tile_State Play Icon focus with thumbnail_hc_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State More Options focus_hc_dark"/>
+    <testcase classname="#test-tile-1" name=" ›› tile_State Double Button focus_hc_dark"/>
+    <testcase classname="#test-tile-2" name=" ›› tile_State Single Button focus_hc_dark"/>
+    <testcase classname="#demo-time" name=" ›› time-picker_Type Time_hc_dark"/>
+    <testcase classname="#demo-time-minutes" name=" ›› time-picker_Type Time with minutes_hc_dark"/>
+    <testcase classname=".iui-toast-wrapper" name=" ›› toast_Type All_hc_dark"/>
+    <testcase classname="#demo-informational" name=" ›› toast_State hover link in informational_hc_dark"/>
+    <testcase classname="#demo-positive" name=" ›› toast_State hover link in positive_hc_dark"/>
+    <testcase classname="#demo-negative" name=" ›› toast_State hover link in negative_hc_dark"/>
+    <testcase classname="#demo-warning" name=" ›› toast_State hover link in warning_hc_dark"/>
+    <testcase classname="#demo-informational" name=" ›› toast_State focus link in informational_hc_dark"/>
+    <testcase classname="#demo-positive" name=" ›› toast_State focus link in positive_hc_dark"/>
+    <testcase classname="#demo-negative" name=" ›› toast_State focus link in negative_hc_dark"/>
+    <testcase classname="#demo-warning" name=" ›› toast_State focus link in warning_hc_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top start placement_hc_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top placement_hc_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Top end placement_hc_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom start placement_hc_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom placement_hc_dark"/>
+    <testcase classname="#toast-test" name=" ›› toast_Bottom end placement_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_Type Default_hc_dark"/>
+    <testcase classname="#demo-small" name=" ›› toggle-switch_Type Small_hc_dark"/>
+    <testcase classname="#demo-toggle-right" name=" ›› toggle-switch_Type label left_hc_dark"/>
+    <testcase classname="#demo-toggle-left" name=" ›› toggle-switch_Type label right_hc_dark"/>
+    <testcase classname="#demo-toggle-no-label" name=" ›› toggle-switch_Type label none_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_State hover checked &amp; focus unchecked_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› toggle-switch_State focus checked &amp; hover unchecked_hc_dark"/>
+    <testcase classname="#demo-tooltip" name=" ›› tooltip_Type All_hc_dark"/>
+    <testcase classname="#demo-default" name=" ›› tree_Default_hc_dark"/>
+    <testcase classname="#demo-captions" name=" ›› tree_With Captions_hc_dark"/>
+    <testcase classname="#demo-checkbox" name=" ›› tree_With Checkbox_hc_dark"/>
+    <testcase classname="#demo-disabled" name=" ›› tree_Disabled_hc_dark"/>
+    <testcase classname="#demo-icons" name=" ›› tree_With Icons_hc_dark"/>
+    <testcase classname="#demo-captions" name=" ›› tree_State hover tree node_hc_dark"/>
+    <testcase classname="#demo-captions" name=" ›› tree_State focus tree node_hc_dark"/>
+    <testcase classname="#demo-typography" name=" ›› typography_Type all_hc_dark"/>
+    <testcase classname="#demo-typography" name=" ›› typography_Type skeleton text_hc_dark"/>
+    <testcase classname="#demo-workflow" name=" ›› workflow-diagram_Type workflow_hc_dark"/>
+  </testsuite>
+</testsuites>
